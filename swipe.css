@@ -1,0 +1,57 @@
+html {
+  font-family: sans-serif;
+  font-size: max(3ch, 6vw);
+  line-height: 2;
+  transition: 300ms;
+  transition-property: background-color;
+}
+
+body {
+  padding: 0;
+  display: flex;
+  flex-flow: column;
+  margin: 1em;
+  align-items: center;
+}
+
+.aurora {
+  box-sizing: border-box;
+  margin: 0;
+  padding: min(1em, 10vw);
+}
+
+.tornado {
+  font: inherit;
+  margin: 0;
+}
+
+.hurricane {
+  text-align: end;
+}
+
+.flux {
+  line-height: 1;
+  margin-block: 5ex;
+}
+
+:any-link {
+  padding: 3vw;
+  display: inline-flex;
+  border-radius: 100%;
+  transition: 300ms;
+  transition-property: box-shadow;
+  text-decoration-style: dotted;
+}
+
+:focus {
+  outline-style: dotted;
+  outline-width: thick;
+}
+
+:hover {
+  text-decoration-style: solid;
+}
+
+.macaw {
+  margin: auto;
+}
