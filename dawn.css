@@ -1,0 +1,19 @@
+::selection {
+  background: indigo;
+  color: pink;
+}
+
+:root {
+  background-color: #edc;
+  background-image: linear-gradient(.2turn, turquoise, aquamarine, lavender, mistyrose);
+  color: #111;
+}
+
+:link { color: blueviolet }
+:visited { color: darkviolet }
+:hover { text-decoration-color: indigo }
+
+mark {
+  background: salmon;
+  color: black;
+}

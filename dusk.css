@@ -1,0 +1,19 @@
+::selection {
+  background: gold;
+  color: #101;
+}
+
+:root {
+  background-color: #111;
+  background-image: linear-gradient(.2turn, #111, rebeccapurple, #111, indigo, #111, rebeccapurple);
+  color: #edc;
+}
+
+:link { color: mistyrose }
+:visited { color: peachpuff }
+:hover { text-decoration-color: thistle }
+
+mark {
+  background: gold;
+  color: #101;
+}
