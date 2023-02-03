@@ -1,0 +1,31 @@
+::selection {
+  background: indigo;
+  color: pink;
+}
+
+:root {
+  background-color: mistyrose;
+  color: indigo;
+}
+
+:any-link {
+  color: indigo;
+}
+
+:focus {
+  box-shadow: 0 0 1em 1em hotpink;
+}
+
+.swirl {
+  animation: 60s ease-in-out swirl infinite;
+}
+
+@keyframes swirl {
+  from {
+    background-image: linear-gradient(.666turn, #bae, skyblue, deepskyblue, violet);
+  }
+
+  to {
+    background-image: linear-gradient(.333turn, skyblue, hotpink, violet, plum);
+  }
+}
